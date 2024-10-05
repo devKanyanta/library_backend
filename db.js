@@ -5,11 +5,12 @@ const path = require('path');
 
 // Create connection to the database
 const pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'library_db',
+  host: 'sql8.freesqldatabase.com',
+  user: 'sql8735646',
+  password: 'zztKXT1PBL',
+  database: 'sql8735646',
   waitForConnections: true,
+  port: '3306',
   connectionLimit: 10,
   queueLimit: 0,
   multipleStatements: true  // Allow multiple SQL statements to be executed in one query
